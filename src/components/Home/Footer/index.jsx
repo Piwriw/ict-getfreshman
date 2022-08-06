@@ -22,7 +22,7 @@ export default function index() {
                         <div className="footer-middle-middle-left">
                             <div className="footer-middle-middle-left-left">
                                 <span className="footer-middle-middle-left-left-title">联系我们</span>
-                                <span><a href="https://www.wjx.top/vj/Q0qa2uE.aspx">报名投递</a></span>
+                                <span><a href="https://www.wjx.cn/vm/YDCrRxg.aspx">报名投递</a></span>
                                 <span><a href="https://jq.qq.com/?_wv=1027&k=LkGcB3dU">招新咨询</a></span>
                             </div>
                             <div className="footer-middle-middle-left-right">

@@ -12,12 +12,12 @@ import './index.css'
 // 我们希望并也一直在努力将一些成功经验和有趣的团队文化
 // 传播出去影响更多的人
 const introducing = `
-工作室隶属于信息工程学院、ICT学院，由北京华晟经世信息技术有限公司、
-广州粤嵌通信科技股份有限公司协办，
+工作室隶属于信息工程学院、ICT学院，
+由北京华晟经世信息技术有限公司、广州粤嵌通信科技股份有限公司协办，
 旨在为学生提供一个学习交流、竞赛培训、创新创业实践的环境和平台，
 提升学生的实践动手能力、创新能力、创业能力和学科竞赛水平。
-目前，ICT通信工程创新创业工作室主要开展嵌入式、服务器后端、人工智能、移动应用等方面的研究和开发
-。`
+目前，ICT通信工程创新创业工作室主要开展嵌入式、服务器后端、人工智能、移动应用等方面的研究和开发。
+`
 
 const des = `ICT通信双创工作室永远都是一个温暖积极的大家庭
 这里承载着勤奋、进步、友爱、关怀、和谐与温馨
@@ -47,7 +47,7 @@ export default function Aboutus(props) {
                         <div className="abus-middle-left-subtitle-label">
                             <img src={us} alt="us" className="abus-middle-left-us"/>
                             <span
-                                className={stateAbusS ? "abus-middle-left-subtitle-label-little bm-show" : "abus-middle-left-subtitle-label-little bm"}>百名工程师</span>
+                                className={stateAbusS ? "abus-middle-left-subtitle-label-little bm-show" : "abus-middle-left-subtitle-label-little bm"}>优秀学长学姐</span>
                             <span
                                 className={stateAbusS ? "abus-middle-left-subtitle-label-little cx-show" : "abus-middle-left-subtitle-label-little cx"}>创新</span>
                             <span
@@ -59,9 +59,9 @@ export default function Aboutus(props) {
                             <span
                                 className={stateAbusS ? "abus-middle-left-subtitle-label-little fx-show" : "abus-middle-left-subtitle-label-little fx"}>分享日</span>
                             <span
-                                className={stateAbusS ? "abus-middle-left-subtitle-label-little hk-show" : "abus-middle-left-subtitle-label-little hk"}>黑客马拉松文化周</span>
+                                className={stateAbusS ? "abus-middle-left-subtitle-label-little hk-show" : "abus-middle-left-subtitle-label-little hk"}>选课指导</span>
                             <span
-                                className={stateAbusS ? "abus-middle-left-subtitle-label-little zh-show" : "abus-middle-left-subtitle-label-little zh"}>周会</span>
+                                className={stateAbusS ? "abus-middle-left-subtitle-label-little zh-show" : "abus-middle-left-subtitle-label-little zh"}>考研分享</span>
                         </div>
                     </div>
                     <div className="abus-middle-right">

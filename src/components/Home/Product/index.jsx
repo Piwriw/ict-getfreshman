@@ -36,7 +36,7 @@ export default function index(props) {
                     <div className={stateCpTop?"prd-right-top prd-right-top-show":"prd-right-top"}>
                         <div className="prd-right-top-left">
                             <span className="prd-right-top-left-cpjs-title">
-                                产品介绍
+                                招新说明
                             </span>
                         </div>
                         <div className="prd-right-top-right">

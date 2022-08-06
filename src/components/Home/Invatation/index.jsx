@@ -61,7 +61,7 @@ export default function index(props) {
                         >
                             <a href="#page1">关于我们</a>
                             <a href="#page2">部门介绍</a>
-                            <a href="#page3">产品介绍</a>
+                            <a href="#page3">招新说明</a>
                             <a href="#page4">成员动态</a>
                             <a href="#page5">招新流程</a>
                         </div>
@@ -72,7 +72,7 @@ export default function index(props) {
                         <div>ICT通信双创工作室&nbsp;·&nbsp;2022年度邀请函</div>
                         <div>想和优秀的你&nbsp;&nbsp;&nbsp;&nbsp;一起改变世界</div>
                         <div className="mainTitle-subtitle">
-                            JOIN MISLAB
+                            JOIN ICTTXLAB
                         </div>
                         <Button size="large" className="mainTitle-button">
                             <a href="#page5"><span className="mainTitle-button-words">加入我们</span></a>
