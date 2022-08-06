@@ -28,7 +28,7 @@ export default function index(props) {
                             src={erp}
                             preview={false}
                             className="prd-left-erp"
-                            alt="图片" 
+                            alt="图片"
                         />
                     </div>
                 </div>
@@ -46,21 +46,21 @@ export default function index(props) {
                         </div>
                     </div>
                     <div className={stateCpBottom?"prd-right-bottom prd-right-bottom-show":"prd-right-bottom"}>
-                        <div className="prd-right-bottom-left">
-                            <Image
-                                src={youwen}
-                                preview={false}
-                                className="prd-right-bottom-left-youwen"
-                                alt="图片" 
-                            />
-                        </div>
+                        {/*<div className="prd-right-bottom-left">*/}
+                        {/*    <Image*/}
+                        {/*        src={youwen}*/}
+                        {/*        preview={false}*/}
+                        {/*        className="prd-right-bottom-left-youwen"*/}
+                        {/*        alt="图片"*/}
+                        {/*    />*/}
+                        {/*</div>*/}
                         <div className="prd-right-bottom-right">
-                            <div className="prd-right-bottom-right-h1">
-                                邮问必答
-                            </div>
-                            <div className="prd-right-bottom-right-h2">
-                                服务于重庆邮电大学学生处学业辅导中心
-                            </div>
+                            {/*<div className="prd-right-bottom-right-h1">*/}
+                            {/*    邮问必答*/}
+                            {/*</div>*/}
+                            {/*<div className="prd-right-bottom-right-h2">*/}
+                            {/*    服务于重庆邮电大学学生处学业辅导中心*/}
+                            {/*</div>*/}
                             <div className="prd-right-bottom-right-text">
                                 项目招募学业优秀、乐于助人的志愿者，针对数理类基础课程、<br />
                                 英语公共课程和专业课程面向全校同学提供答疑服务，解决同学学习中的具体学业问题，搭建学习讨论交流平台，构建人人好学和人人学好的良好氛围。

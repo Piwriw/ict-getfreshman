@@ -50,11 +50,11 @@ export default function index() {
                 </div>
                 <div className="footer-footer">
                     <span>
-                        地址：重庆市南岸区崇文路2号重庆邮电大学经济管理学院2907
+                        地址：韶关学院韶师三号楼209室
                     </span>
-                    <span>
-                        邮箱：join@mislab.team
-                    </span>
+                    {/*<span>*/}
+                    {/*    邮箱：join@mislab.team*/}
+                    {/*</span>*/}
                 </div>
             </div>
         </div>
