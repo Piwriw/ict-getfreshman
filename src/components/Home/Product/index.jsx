@@ -18,9 +18,12 @@ export default function index(props) {
                         报名须知
                     </div>
                     <div className="prd-left-text">
+                        <b> <font>招新对象：韶关学院全体22级新生</font></b>
+
+                        <hr/>
                         工作室考核主要采取面试＋俩轮基础知识考核，基础知识考核根据所选方向而有所不同，
                         关于面试和考核的时间我们会利用群或者邮件方式通知你。
-                        如果面试和俩轮基础知识考核都顺利通过的话，就可以加入我们ict通信工作室的大家庭里面啦！
+                        如果面试和俩轮基础知识考核都顺利通过的话，就可以加入我们ICT通信双创工作室的大家庭里面啦😆😆😆！
                     </div>
                     {/*<div className="prd-left-bottom">*/}
                     {/*    <Image*/}
