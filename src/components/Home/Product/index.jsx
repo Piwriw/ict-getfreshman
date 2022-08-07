@@ -1,39 +1,38 @@
 import React from 'react'
-import { Image } from 'antd'
+import {Image} from 'antd'
 // 引入外部资源
 import erp from '../../../assets/erp.png'
 import youwen from '../../../assets/youwen.png'
 import './index.css'
 
 export default function index(props) {
-    const {stateCpTop,stateCpBottom} = props.prdState
+    const {stateCpTop, stateCpBottom} = props.prdState
     return (
         <div className="product-bgc">
             <div className="prd-wrap">
-                <div className={stateCpTop?"prd-left prd-left-show":"prd-left"}>
+                <div className={stateCpTop ? "prd-left prd-left-show" : "prd-left"}>
                     <div className="prd-left-h1">
-                        ERP虚拟运营系统
+                        面试轮
                     </div>
                     <div className="prd-left-h2">
-                        系统在信管必修课上长期使用
+                        报名须知
                     </div>
                     <div className="prd-left-text">
-                        通过构建一个虚拟的市场环境，
-                        让受训者充当企业的CEO，进行企业的模拟运营。
-                        通过此虚拟过程，让受训者体会到如何管理企业
-                        中的物资流动、资金流动和信息流动，以及相互之间的制约与转换关系
+                        工作室考核主要采取面试＋俩轮基础知识考核，基础知识考核根据所选方向而有所不同，
+                        关于面试和考核的时间我们会利用群或者邮件方式通知你。
+                        如果面试和俩轮基础知识考核都顺利通过的话，就可以加入我们ict通信工作室的大家庭里面啦！
                     </div>
-                    <div className="prd-left-bottom">
-                        <Image
-                            src={erp}
-                            preview={false}
-                            className="prd-left-erp"
-                            alt="图片"
-                        />
-                    </div>
+                    {/*<div className="prd-left-bottom">*/}
+                    {/*    <Image*/}
+                    {/*        src={erp}*/}
+                    {/*        preview={false}*/}
+                    {/*        className="prd-left-erp"*/}
+                    {/*        alt="图片"*/}
+                    {/*    />*/}
+                    {/*</div>*/}
                 </div>
                 <div className="prd-right">
-                    <div className={stateCpTop?"prd-right-top prd-right-top-show":"prd-right-top"}>
+                    <div className={stateCpTop ? "prd-right-top prd-right-top-show" : "prd-right-top"}>
                         <div className="prd-right-top-left">
                             <span className="prd-right-top-left-cpjs-title">
                                 招新说明
@@ -41,29 +40,45 @@ export default function index(props) {
                         </div>
                         <div className="prd-right-top-right">
                             <span className="prd-right-top-right-cpjs-detail">
-                                工作室目前主要有六个项目。<br />分别是ERP虚拟运营系统，邮问必答，基于大数据的骨质质量评估系统，路径规划系统，智能广告识别项目，作业系统，以及其他小项目，用于保证工作室同学手里都可以利用项目进行实战学习。
+                                <div>
+                                    嵌入式|后端|嵌入式开发部  ： C语言基础，涉及到到基础知识、入门算法
+                                </div>
+                                <hr/>
+                                <div>
+                                    人工智能开发部：Python基础
+                                </div>
                             </span>
                         </div>
                     </div>
-                    <div className={stateCpBottom?"prd-right-bottom prd-right-bottom-show":"prd-right-bottom"}>
+                    <div className={stateCpBottom ? "prd-right-bottom prd-right-bottom-show" : "prd-right-bottom"}>
                         {/*<div className="prd-right-bottom-left">*/}
-                        {/*    <Image*/}
-                        {/*        src={youwen}*/}
-                        {/*        preview={false}*/}
-                        {/*        className="prd-right-bottom-left-youwen"*/}
-                        {/*        alt="图片"*/}
-                        {/*    />*/}
+                        {/*<Image*/}
+                        {/*    src={youwen}*/}
+                        {/*    preview={false}*/}
+                        {/*    className="prd-right-bottom-left-youwen"*/}
+                        {/*    alt="图片"*/}
+                        {/*/>*/}
                         {/*</div>*/}
                         <div className="prd-right-bottom-right">
-                            {/*<div className="prd-right-bottom-right-h1">*/}
-                            {/*    邮问必答*/}
-                            {/*</div>*/}
-                            {/*<div className="prd-right-bottom-right-h2">*/}
-                            {/*    服务于重庆邮电大学学生处学业辅导中心*/}
-                            {/*</div>*/}
+                            <div className="prd-right-bottom-right-h1">
+                                联系我们
+                            </div>
+                            <div className="prd-right-bottom-right-h2">
+                                <div>
+                                    嵌入式负责人：Mr.洪 | WeChat:husk159357 | Email:@2649330808@qq.com
+                                </div>
+                                <div>
+                                    前端负责人：Mr.莫 | WeChat:M_Z_Yuuu | Email:2225642047@qq.com
+                                </div>
+                                <div>
+                                    后端负责人：Mr.王 | WeChat:wj-1814320383 | Email:1814320383@qq.com
+                                </div>
+                                <div>
+                                    人工智能负责人：Mr.何 | WeChat:hzx393297251 | Email:393297251@qq.com
+                                </div>
+                            </div>
                             <div className="prd-right-bottom-right-text">
-                                项目招募学业优秀、乐于助人的志愿者，针对数理类基础课程、<br />
-                                英语公共课程和专业课程面向全校同学提供答疑服务，解决同学学习中的具体学业问题，搭建学习讨论交流平台，构建人人好学和人人学好的良好氛围。
+
                             </div>
                         </div>
                     </div>

@@ -23,10 +23,10 @@ export default function index() {
                         />
                         <div className="prc-top-h">
                             <div className="prc-top-h1">
-                                报名/预习
+                                初报名/预习
                             </div>
                             <div className="prc-top-h2">
-                                8月中旬—9月中旬
+                                9月初旬—10月初旬
                             </div>
                         </div>
                     </div>
@@ -41,10 +41,10 @@ export default function index() {
                         />
                         <div className="prc-top-h">
                             <div className="prc-top-h1">
-                                招新/培训
+                                一轮考核
                             </div>
                             <div className="prc-top-h2">
-                                9月中旬—12月中旬
+                                10月初旬
                             </div>
                         </div>
                     </div>
@@ -59,16 +59,16 @@ export default function index() {
                         />
                         <div className="prc-top-h">
                             <div className="prc-top-h1">
-                                offer/项目
+                                二轮考核
                             </div>
                             <div className="prc-top-h2">
-                                12月中旬—长期
+                                11月中旬
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="prc-middle-1">
-                    <a href="https://www.wjx.top/vj/Q0qa2uE.aspx">
+                    <a href="https://www.wjx.cn/vm/YDCrRxg.aspx">
                         <img
                             src={jiaruwomen}
                             alt="图片"
@@ -83,14 +83,14 @@ export default function index() {
                 </div>
                 <div className="prc-bottom">
                     <div className="prc-bottom-item">
-                        <a href="https://www.wjx.top/vj/Q0qa2uE.aspx"><span className="prc-bottom-text">报名投递</span></a>
+                        <a href="https://www.wjx.cn/vm/YDCrRxg.aspx"><span className="prc-bottom-text">报名投递</span></a>
                     </div>
                     <div className="prc-bottom-item">
                         <span className="prc-bottom-text" onClick={haveNoContent}>学员系统</span>
                     </div>
-                    <div className="prc-bottom-item">
-                        <a href="https://jq.qq.com/?_wv=1027&k=LkGcB3dU"><span className="prc-bottom-text">招新咨询</span></a>
-                    </div>
+                    {/*<div className="prc-bottom-item">*/}
+                    {/*    <a href="https://jq.qq.com/?_wv=1027&k=LkGcB3dU"><span className="prc-bottom-text">招新咨询</span></a>*/}
+                    {/*</div>*/}
                 </div>
                 <div className="prc-title">
                     招新流程

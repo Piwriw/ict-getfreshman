@@ -19,12 +19,12 @@ export default function index() {
                     <div className="member-middle-left">
                         <div className="member-middle-left-top">
                             <span>
-                                优秀学长采访
+                                学长寄语
                             </span>
                         </div>
                         <div className="member-middle-left-bottom">
                             {/*<video*/}
-                            {/*    src={xuezhangcaifang}*/}
+                            {/*    src="https://youtu.be/SNT6IEcw3-w"*/}
                             {/*    // src={"https://mislab.oss-cn-chengdu.aliyuncs.com/xuezhangcaifang.mp4"}*/}
                             {/*    muted*/}
                             {/*    autoPlay*/}
@@ -39,6 +39,15 @@ export default function index() {
                             {/*    x5-video-player-type="h5"*/}
                             {/*    x5-video-player-fullscreen="false"*/}
                             {/*/>*/}
+
+                            <iframe
+                                src="//player.bilibili.com/player.html?aid=644224887&bvid=BV1ZY4y1w7uE&cid=795665349&page=1&high_quality=1&danmaku=0"
+                                scrolling="no" border="0" frameBorder="no" framespacing="0"
+                                // sandbox ="allow-top-navigation allow-same-origin allow-forms allow-scripts"
+                                 allowFullScreen="allowfullscreen" width="100%" height="500" scrolling="no"
+                               ></iframe>
+
+
                         </div>
                     </div>
                     <div className="member-middle-right">
