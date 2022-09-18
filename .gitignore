@@ -11,9 +11,7 @@
 /coverage
 
 # production
-/public
-/src
-/static
+
 
 
 # misc
