@@ -39,14 +39,14 @@ export default function index() {
                         </div>
                     </div>
                     <div className="footer-middle-line-right" />
-                    {/*<div className="footer-middle-right">*/}
-                    {/*    <Image*/}
-                    {/*        src={qrcode}*/}
-                    {/*        alt="二维码"*/}
-                    {/*        className="footer-middle-right-qrcode"*/}
-                    {/*    />*/}
-                    {/*    <span>QQ扫码咨询</span>*/}
-                    {/*</div>*/}
+                    <div className="footer-middle-right">
+                        <Image
+                            src={qrcode}
+                            alt="二维码"
+                            className="footer-middle-right-qrcode"
+                        />
+                        <span>WX群招新二维码</span>
+                    </div>
                 </div>
                 <div className="footer-footer">
                     <span>
